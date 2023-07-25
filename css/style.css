@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Airstrike;
+    src: url(../fonts/airstrikeexpand.ttf);
+}
+
+body {
+    background-color: #aab1bf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box {
+    border-radius: 20px;
+    padding: 5px;
+    width: 700px;
+    height: 380px;
+    margin-top: 20vh;
+    background-color: #7b838c;
+    font-family: Airstrike, Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    margin-top: -0px;
+    border-bottom: 2px solid black;
+}
+
+#menu ul {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+#menu li:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    transition: 0.3s;
+}
+
+#menu li a:hover {
+    color: white;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#conteudo {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+
+}
+
+#conteudo h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+#descricao p {
+    text-align: left;
+}
+
+#foto {
+    display: inline-block;
+}
+
+#redes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+#redes h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#redes ul {}
+
+#redes li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes li a {
+    text-decoration: none;
+    color: black;
+}
