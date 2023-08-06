@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#pag-projetos {
+    display: flex;
+    flex-direction: row;
+}
+
+#projetos {
+    width: 400px;
+}
+
+#projetos>h2 {
+    text-align: center;
+}
+
+#projetos>ul>li>img {
+    height: 15px;
+}
+
+#projetos>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+#projetos>ul>li>a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 342px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-left: 2px solid black;
+}
+
+#name-project{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+#desc-project{
+    text-align: center;
+    margin-left: 20px;
+}
+
+#img-project>img {
+    width: 250px;
+    height: 140.625px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
